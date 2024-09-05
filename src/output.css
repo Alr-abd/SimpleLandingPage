@@ -797,10 +797,6 @@ video {
   margin-top: 2rem;
 }
 
-.mt-\[10px\] {
-  margin-top: 10px;
-}
-
 .mt-\[110px\] {
   margin-top: 110px;
 }
@@ -1234,6 +1230,11 @@ video {
        column-gap: 150px;
 }
 
+.gap-x-\[15px\] {
+  -moz-column-gap: 15px;
+       column-gap: 15px;
+}
+
 .gap-x-\[4px\] {
   -moz-column-gap: 4px;
        column-gap: 4px;
@@ -1258,16 +1259,6 @@ video {
 
 .gap-y-\[5px\] {
   row-gap: 5px;
-}
-
-.gap-x-\[10px\] {
-  -moz-column-gap: 10px;
-       column-gap: 10px;
-}
-
-.gap-x-\[15px\] {
-  -moz-column-gap: 15px;
-       column-gap: 15px;
 }
 
 .space-y-\[25px\] > :not([hidden]) ~ :not([hidden]) {
@@ -1446,11 +1437,6 @@ video {
   font-family: Vazirmatn, sans-serif;
 }
 
-.text-2xl {
-  font-size: 1.5rem;
-  line-height: 2rem;
-}
-
 .text-\[10px\] {
   font-size: 10px;
 }
@@ -1547,10 +1533,6 @@ video {
 
 .leading-\[25px\] {
   line-height: 25px;
-}
-
-.leading-\[38px\] {
-  line-height: 38px;
 }
 
 .text-\[\#001A72\] {
@@ -1699,6 +1681,18 @@ video {
     margin-top: 70px;
   }
 
+  .md\:ml-\[98px\] {
+    margin-left: 98px;
+  }
+
+  .md\:ml-\[76px\] {
+    margin-left: 76px;
+  }
+
+  .md\:ml-\[96px\] {
+    margin-left: 96px;
+  }
+
   .md\:block {
     display: block;
   }
@@ -1815,6 +1809,18 @@ video {
     width: auto;
   }
 
+  .md\:w-full {
+    width: 100%;
+  }
+
+  .md\:w-\[50px\] {
+    width: 50px;
+  }
+
+  .md\:w-\[55px\] {
+    width: 55px;
+  }
+
   .md\:max-w-\[220px\] {
     max-width: 220px;
   }
@@ -1861,6 +1867,11 @@ video {
          column-gap: 1.25rem;
   }
 
+  .md\:gap-x-\[150px\] {
+    -moz-column-gap: 150px;
+         column-gap: 150px;
+  }
+
   .md\:gap-x-\[20px\] {
     -moz-column-gap: 20px;
          column-gap: 20px;
@@ -1874,16 +1885,6 @@ video {
   .md\:gap-x-\[30px\] {
     -moz-column-gap: 30px;
          column-gap: 30px;
-  }
-
-  .md\:gap-x-0 {
-    -moz-column-gap: 0px;
-         column-gap: 0px;
-  }
-
-  .md\:gap-x-\[150px\] {
-    -moz-column-gap: 150px;
-         column-gap: 150px;
   }
 
   .md\:gap-y-5 {
@@ -2182,6 +2183,10 @@ video {
 
   .xl\:mt-\[96px\] {
     margin-top: 96px;
+  }
+
+  .xl\:mr-\[134px\] {
+    margin-right: 134px;
   }
 
   .xl\:block {

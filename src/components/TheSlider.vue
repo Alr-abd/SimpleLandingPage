@@ -86,7 +86,7 @@
   <div class="w-full h-auto">
     <header class="mainshodow z-[1000] fixed bg-[#FFFFFF] w-full xl:w-[1440px] xl:ml-[33px] h-[44px] md:h-[98px] flex items-center justify-between md:justify-normal" >
       <div class="flex items-center justify-center">
-        <img src="./../Pic/5f2ec6d494f394978131ba14a690d793.png" alt="logo" class="w-[37px] md:w-[100px] h-[38px] md:h-[102px] my-[3px] md:my-0 mr-[41px] md:mr-[40px] xl:mr-[172px]">
+        <img src="./../Pic/5f2ec6d494f394978131ba14a690d793.png" alt="logo" class="w-[37px] md:w-[100px] h-[38px] md:h-[102px] my-[3px] md:my-0 mr-[41px] md:mr-[40px] xl:mr-[134px]">
         <span class="md:hidden font-vazir font-semibold mr-0">آیندگان برتر</span>
       </div>
       <ul class="hidden md:flex items-center mr-[40px] md:w-[600px] lg:w-[532px] justify-between md:space-x-1">
@@ -386,12 +386,12 @@
             <div class="w-full flex justify-center items-center mt-8 h-[100px]">
               <span v-if="ishoveredClassSpan === 1" class="font-vazir text-xs md:text-[15px] xl:text-[20px] leading-[18px] md:leading-[25px] xl:leading-[31px] max-w-[225px] md:max-w-[450px] xl:max-w-[876px] text-center">عکاسی همایش ها، نشست ها و جلسات یکی از مهم ترین بخش های برگزاری چنین رویدادهاییست و نیاز به عکاسانی باهوش و خلاق دارند که بتوانند به بهترین شکل ممکن ثبت لحظات را انجام دهند. عکاسان کاربلد ما در پیکسمر نیز با دارا بودن .
               </span>
-              <span v-if="ishoveredClassSpan === 2" class="font-vazir text-xs md:text-[15px] xl:text-[20px] leading-[18px] md:leading-[25px] xl:leading-[31px] max-w-[225px] md:max-w-[450px] xl:max-w-[876px] text-center">عکاسی همایش ها، نشست ها و جلسات یکی از مهم ترین بخش های برگزاری چنین رویدادهاییست و نیاز به عکاسانی باهوش و خلاق دارند که بتوانند به بهترین شکل ممکن ثبت لحظات را انجام دهند. عکاسان کاربلد ما در پیکسمر نیز با دارا بودن .
+              <span v-if="ishoveredClassSpan === 2" class="font-vazir text-xs md:text-[15px] xl:text-[20px] leading-[18px] md:leading-[25px] xl:leading-[31px] max-w-[225px] md:max-w-[450px] xl:max-w-[876px] text-center">نقل قول های بزرگان در زمینه بازاریابی شبکه های اجتماعی پر از نکات و ایده هایی هستند که نقش تاثیرگذاری بر استراتژی های اجرایی شما در رشد برندتان خواهند داشت. با کمی تامل در این جملات بهترین راه هایی که این کانال می تواند بر تلاش های بازاریابی تان تاثیری مثبت بگذارند را پیدا می کنید.
               </span>
               <span v-if="ishoveredClassSpan === 3" class="font-vazir text-xs md:text-[15px] xl:text-[20px] leading-[18px] md:leading-[25px] xl:leading-[31px] max-w-[225px] md:max-w-[450px] xl:max-w-[876px] text-center">اگر اولویت کسب وکار شما ارائه خدمات با کیفیت به مشتریان‌تون با هدف بالا بردن فروش و پاسخگویی در کمترین زمان هست به نظر من رایچت بهترین گزینه برای شما خواهد بود.</span>
             </div>
             <div class="mt-20 w-full flex flex-col md:flex-row justify-center items-center gap-y-[5px] md:gap-x-[25px]">
-              <div @mouseenter="ishovered(1)" :class="{'hovered' : ishoveredClass === 1 }" class="w-[222px] md:w-[270px] xl:w-[371px] h-[61px] md:h-[90px] xl:h-[138px] rounded-[13px] xl:rounded-[28px] bg-[#E3EAF2] flex items-center justify-between">
+              <div @mouseenter="ishovered(1)" @click="isclicked(1)" :class="{'hovered' : ishoveredClass === 1 }" class="w-[222px] md:w-[270px] xl:w-[371px] h-[61px] md:h-[90px] xl:h-[138px] rounded-[13px] xl:rounded-[28px] bg-[#E3EAF2] flex items-center justify-between">
                 <div class="w-[49px] md:w-[70px] xl:w-[124px] mr-[13px]"><img src="../Pic/dehban.png" alt="img8" class="rounded-[50%]">
                 </div>
                 <div class="flex flex-col ml-[2px] md:ml-[5px] xl:ml-[13px] mr-[2px] md:mr-[5px] xl:mr-[9px]">
@@ -399,7 +399,7 @@
                   <span class="font-vazir font-normal text-[10px] md:text-[18px] leading-[15px] md:leading-[31px]">دکترای بازایابی و موسس آکادمی دهبان</span>
                 </div>
               </div>
-              <div @mouseenter="ishovered(2)" :class="{'hovered' : ishoveredClass === 2 }"  class="w-[222px] md:w-[270px] xl:w-[371px] h-[61px] md:h-[90px] xl:h-[138px] rounded-[13px] xl:rounded-[28px] bg-[#E3EAF2] flex items-center justify-between">
+              <div @mouseenter="ishovered(2)" @click="isclicked(2)" :class="{'hovered' : ishoveredClass === 2 }"  class="w-[222px] md:w-[270px] xl:w-[371px] h-[61px] md:h-[90px] xl:h-[138px] rounded-[13px] xl:rounded-[28px] bg-[#E3EAF2] flex items-center justify-between">
                 <div class="w-[49px] md:w-[70px] xl:w-[124px] mr-[13px]"><img src="../Pic/talebi.png" alt="img8" class="rounded-[50%]">
                 </div>
                 <div class="flex flex-col ml-[2px] md:ml-[5px] xl:ml-[13px] mr-[2px] md:mr-[5px] xl:mr-[9px]">
@@ -408,12 +408,12 @@
                   </span>
                 </div>
               </div>
-              <div @mouseenter="ishovered(3)" :class="{'hovered' : ishoveredClass === 3 }"  class="w-[222px] md:w-[270px] xl:w-[371px] h-[61px] md:h-[90px] xl:h-[138px] rounded-[13px] xl:rounded-[28px] bg-[#E3EAF2] flex items-center justify-between">
-                <div class="w-[49px] md:w-[70px] xl:w-[124px] mr-[13px]"><img src="../Pic/moz.png" alt="img8" class="rounded-[50%]">
+              <div @mouseenter="ishovered(3)" @click="isclicked(3)" :class="{'hovered' : ishoveredClass === 3 }"  class="w-[222px] md:w-[270px] xl:w-[371px] h-[61px] md:h-[90px] xl:h-[138px] rounded-[13px] xl:rounded-[28px] bg-[#E3EAF2] flex items-center justify-between">
+                <div class="w-[49px] md:w-[55px] xl:w-[124px] mr-[13px]"><img src="../Pic/moz.png" alt="img8" class="rounded-[50%]">
                 </div>
                 <div class="flex flex-col items-center ml-[2px] md:ml-[5px] xl:ml-[13px] mr-[2px] md:mr-[5px] xl:mr-[9px]">
-                  <span class="font-vazir font-bold md:text-[18px]  text-[10px] md:leading-[31px] leading-[15px] ml-[90px] md:ml-[124px]">آرین افشار</span>
-                  <span class="font-vazir font-bold md:text-[18px] text-[10px] md:leading-[31px] leading-[15px]">مدیر جوانه</span>
+                  <span class="font-vazir font-bold md:text-[16px] text-[10px] md:leading-[31px] leading-[15px] ml-[90px] md:ml-[96px] lx:ml-[124px]">آرین افشار</span>
+                  <span class="font-vazir font-bold md:text-[16px] text-[10px] md:leading-[31px] leading-[15px]">مدیر جوانه</span>
                 </div>
               </div>
             </div>
@@ -540,6 +540,7 @@
 import { ref , computed  } from 'vue';
 const ishoveredClass = ref(null)
 const ishoveredClassSpan = ref(1)
+
 const items = [
   { image: new URL('@/Pic/imgOfSlider/1.jpg' , import.meta.url), text: 'عکاسی همایش ها، نشست ها و جلسات یکی از مهم ترین بخش های برگزاری چنین رویدادهاییست و نیاز به عکاسانی باهوش و خلاق دارند که بتوانند به بهترین شکل ممکن ثبت لحظات را انجام دهند. عکاسان کاربلد ما در پیکسمر نیز با دارا بودن .' },
   { image: new URL('@/Pic/imgOfSlider/2.jpg' , import.meta.url), text: 'عکاسی همایش ها، نشست ها و جلسات یکی از مهم ترین بخش های برگزاری چنین رویدادهاییست و نیاز به عکاسانی باهوش و خلاق دارند که بتوانند به بهترین شکل ممکن ثبت لحظات را انجام دهند. عکاسان کاربلد ما در پیکسمر نیز با دارا بودن .' },
@@ -552,6 +553,14 @@ const items = [
   { image: new URL('@/Pic/imgOfSlider/1.jpg' , import.meta.url), text: 'عکاسی همایش ها، نشست ها و جلسات یکی از مهم ترین بخش های برگزاری چنین رویدادهاییست و نیاز به عکاسانی باهوش و خلاق دارند که بتوانند به بهترین شکل ممکن ثبت لحظات را انجام دهند. عکاسان کاربلد ما در پیکسمر نیز با دارا بودن .' },
   { image: new URL('@/Pic/imgOfSlider/2.jpg' , import.meta.url), text: 'عکاسی همایش ها، نشست ها و جلسات یکی از مهم ترین بخش های برگزاری چنین رویدادهاییست و نیاز به عکاسانی باهوش و خلاق دارند که بتوانند به بهترین شکل ممکن ثبت لحظات را انجام دهند. عکاسان کاربلد ما در پیکسمر نیز با دارا بودن .' }
 ];
+const isclicked = computed(() => {
+  return (index) => {
+    if (window.innerWidth < 768) {
+      ishoveredClass.value = index;
+      ishoveredClassSpan.value = index;
+    }
+  };
+});
 const chunkedSlides = ref([]);
 const itemsPerSlide = computed(() => {
   if (window.innerWidth < 500) {
@@ -568,10 +577,18 @@ const itemsPerSlide = computed(() => {
 for (let i = 0; i < items.length; i += itemsPerSlide.value) {
   chunkedSlides.value.push(items.slice(i, i + itemsPerSlide.value));
 }
-const ishovered = (index) => {
-  ishoveredClass.value = index
-  ishoveredClassSpan.value = index
-}
+const ishovered = computed(() => {
+  return (index) => {
+    if (window.innerWidth > 768) {
+      ishoveredClass.value = index;
+      ishoveredClassSpan.value = index;
+    }
+  };
+});
+// const ishovered = (index) => {
+//   ishoveredClass.value = index
+//   ishoveredClassSpan.value = index
+// }
 const divOfHeaderMb = ref(false)
 const opendivOfHeaderMb = () => {
   divOfHeaderMb.value = !divOfHeaderMb.value
