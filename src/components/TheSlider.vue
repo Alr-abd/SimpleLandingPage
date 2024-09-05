@@ -304,11 +304,11 @@
       </div>
      </div>
      <!-- Task 4 -->
-      <div class="mt-[20px] mb-[20px] md:mb-[50px] xl:mb-[110px] flex justify-center xl:w-full mx-[10px] xl:mx-0 xl:h-[758px]">
+      <div class="mt-[20px] mb-[20px] md:mb-[50px] xl:mb-[50px] flex justify-center xl:w-full mx-[10px] xl:mx-0 xl:h-[758px]">
         <img src="../Pic/videoOfLandingPage/a9d485288741ba6752e1e177a3757919.jfif" alt="img5" class="xl:w-full w-[90vw] xl:h-[758px] md:h-[350px] h-[186px] rounded-[16px] xl:rounded-none object-cover">
       </div>
       <!-- Task 5 -->
-       <div class="w-full flex flex-col xl:flex-row ml-[234px] justify-between items-center mr-[14px]">
+       <div class="w-full flex flex-col xl:flex-row ml-[234px] justify-between xl:justify-center items-center gap-x-[200px] mr-[14px]">
         <div>
           <h1 class="w-full font-vazir items-center font-bold text-[12px] md:text-[17px] xl:text-2xl leading-[15px] md:leading-[30px] xl:leading-[38px]">هوش مصنوعی رایچت برای تمامی سیستم عامل ها</h1>
         </div>
